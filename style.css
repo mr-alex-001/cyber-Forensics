@@ -1,0 +1,211 @@
+#body{
+    background-color: #c9bfbf;
+    font-family: Arial, sans-serif;
+    /* margin: 10px; */
+    /* padding: 5px 30px 10px 30px; */
+    margin: 0;
+    padding: 0;
+
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.topnav {
+    background-color: #0d4c55;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  #cf{
+    float: left;
+  }
+  #contact{
+    border: 2px solid #b2a4a4;
+    border-radius: 20px;
+  }
+  #container{
+    background-image: url("https://images.spiceworks.com/wp-content/uploads/2022/07/19110827/Digital-forensics-Threat.jpg");
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+  justify-content: center;
+  align-items: center
+  }
+  
+#heading{
+  width: 300vh;
+  height: 300px;
+  background-color: #f4e6e6;
+  padding: 100px;
+  opacity: 0.6;
+  ;
+}
+.heading{
+  font-size: 35px;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#about-us {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: black;
+  
+}
+
+.pic {
+  height: auto;
+  width: 500px;
+  border-radius: 12px;
+}
+
+.about {
+  width: 1130px;
+  max-width: 85%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  width: 540px;
+  
+}
+
+.text h2 {
+  color: #fff;
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.text h5 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+span {
+  color: #4070f4;
+}
+
+.text p {
+  color: #757474;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.data {
+  margin-top: 30px;
+}
+
+.hire {
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.hire:hover {
+  background: #353232;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body { */
+  /* font-family: Arial, sans-serif; */
+  /* background-color: #f4f4f9; */
+  /* color: #333; */
+/* } */
+
+
+/* #footer{
+  background-color: #040505;
+} */
+
+.links-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.links-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #807d7d;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #f2ecec;
+}
+
+.card a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #080809;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+  background-color: #0056b3;
+}
+
